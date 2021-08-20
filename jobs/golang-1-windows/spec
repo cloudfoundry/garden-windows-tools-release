@@ -1,0 +1,9 @@
+---
+name: golang-1-windows
+
+templates: {}
+
+packages:
+- golang-1-windows
+
+properties: {}

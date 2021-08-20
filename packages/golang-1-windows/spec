@@ -1,0 +1,6 @@
+---
+name: golang-1-windows
+
+files:
+- golang-1-windows/go1.17.windows-amd64.zip
+- exiter.ps1
