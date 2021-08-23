@@ -1,0 +1,17 @@
+name: garden-windows-tools
+version: 1.0.0-alpha.1
+commit_hash: f6603ec
+uncommitted_changes: false
+jobs:
+- name: golang-1-windows
+  version: 661e260daaa0ad2b5a560a59063fb3961b1a03774f07534cd2fc8fd7391072d1
+  fingerprint: 661e260daaa0ad2b5a560a59063fb3961b1a03774f07534cd2fc8fd7391072d1
+  sha1: sha256:2a03f68db2a267dd38054e72446ba926718e4cff32cca4e0e615df76c9511e36
+  packages:
+  - golang-1-windows
+packages:
+- name: golang-1-windows
+  version: 8968e7a5fe69e0cf4f02bf2f633575c46dcfc4fa74b59f8aaff159f27257682b
+  fingerprint: 8968e7a5fe69e0cf4f02bf2f633575c46dcfc4fa74b59f8aaff159f27257682b
+  sha1: sha256:c7cdc4da12cf7867c71260cfa137389cd6d49cd3899a1256ba27a1ed86f280bb
+  dependencies: []
