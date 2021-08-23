@@ -4,12 +4,14 @@ set -euo pipefail
 
 version="${1:?version required}"
 
+golangVersion="$(gawk 'match($0, /^golang-1-windows\/go(.*).windows-amd64.zip/, v) {print v[1]}' config/blobs.yml)"
+
 lpass show Shared-Garden/windows-tools-release-s3-private-yml --notes > config/private.yml
 
 bosh upload-blobs
 
 git add .
-git ci -m "Bump golang"
+git ci -m "Bump golang to v$golangVersion"
 
 bosh create-release --version="$version" --final --tarball="garden-windows-tools-$version.tgz"
 
