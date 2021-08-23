@@ -10,6 +10,7 @@ releases/**/*.tgz
 .idea
 *.swp
 *.tgz
+*.zip
 *~
 *#
 #*
