@@ -20,7 +20,7 @@ git ci -m "Release $version"
 
 git push
 
-gh release create "$version" --notes "" --target $(git rev-parse HEAD) "./garden-windows-tools-$version.tgz"
+gh release create "$version" --notes "golang-v$golangVersion" --target $(git rev-parse HEAD) "./garden-windows-tools-$version.tgz"
 rm "./garden-windows-tools-$version.tgz"
 
 echo "Now update the concourse ops file to point to: https://github.com/masters-of-cats/garden-windows-tools-release/releases/download/$version/garden-windows-tools-$version.tgz"
