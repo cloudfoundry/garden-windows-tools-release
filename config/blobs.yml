@@ -1,4 +1,4 @@
-golang-1-windows/go1.17.windows-amd64.zip:
-  size: 150367305
-  object_id: 37978d7f-de3f-4c88-4d22-9f0a1713cc69
-  sha: sha256:2a18bd65583e221be8b9b7c2fbe3696c40f6e27c2df689bbdcc939d49651d151
+golang-1-windows/go1.16.7.windows-amd64.zip:
+  size: 143997221
+  object_id: f51d7505-3349-4955-4c9b-203011d9479d
+  sha: sha256:56b3a9024268f226f679c3a8ffb21f4214a75f84050b2c395b362ae2cc8e53e9
